@@ -1,0 +1,120 @@
+
+
+body {
+    background-color: #FFFEF2;
+  }
+
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+  
+  .grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color: lavender;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+
+  }
+  
+  .item1 {
+    grid-column: 1 / span 3 ;
+    grid-row: 1;
+    font-size: large;
+    background-color: #880000;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    align-items: center;
+  }
+  
+  .item2 {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 50;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    margin: auto;
+  }
+
+  .form-group{
+    font-size: large;
+  }
+
+
+  .buttons{
+    margin-top: 30%;
+  }
+
+  form{
+    padding-top: 50px;
+  }
+
+.checkbox{
+    margin-bottom: 18%;
+}
+
+ 
+
+
+
+ .home a{
+    background-color: #FFFEF2;
+    text-decoration: none;
+    font-size: medium;
+    border: 3px solid black;
+    color: black;
+    width: 25px;
+    text-align: center;
+    margin: 0 2em;
+    padding: .5em 2em;
+ }
+
+ .home{
+    float: left;
+    margin: 5px;
+ }
+
+ .signOut a{
+    background-color: #FFFEF2;
+    text-decoration: none;
+    font-size: medium;
+    border: 3px solid black;
+    color: black;
+    width: 25px;
+    text-align: center;
+    margin: 0 2em;
+    padding: .5em 2em;
+ }
+
+ .signOut{
+    float: right;
+
+ }
+
+ .signedIn label{
+    background-color: #FFFEF2;
+    text-decoration: none;
+    font-size: medium;
+    border: 3px solid black;
+    color: black;
+    width: 25px;
+    text-align: center;
+    margin: 0 2em;
+    padding: .5em 2em;
+ }
+
+ .signedIn{
+    float: center;
+    margin-right: 100px;
+    margin-bottom: 3px;
+ }
+
+
+
+
+
+
+  
