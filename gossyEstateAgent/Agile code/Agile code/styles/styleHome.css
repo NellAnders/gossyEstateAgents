@@ -1,0 +1,127 @@
+.home a{
+    background-color: #ffffff;
+    text-decoration: none;
+    font-size: medium;
+    border: 3px solid black;
+    color: black;
+    width: 25px;
+    text-align: center;
+    margin: 0 2em;
+    padding: .5em 2em;
+
+ }
+
+ .accountCreation a{
+    background-color: #FFFEF2;
+    text-decoration: none;
+    font-size: medium;
+    border: 3px solid black;
+    color: black;
+    width: 25px;
+    text-align: center;
+    margin: 0 2em;
+    padding: .5em 2em;
+
+ }
+
+
+ .loginPage a{
+    background-color: #FFFEF2;
+    text-decoration: none;
+    font-size: medium;
+    border: 3px solid black;
+    color: black;
+    width: 25px;
+    text-align: center;
+    margin: 0 2em;
+    padding: .5em 2em;
+
+ }
+
+
+
+ .signOut a{
+    background-color: #FFFEF2;
+    text-decoration: none;
+    font-size: medium;
+    border: 3px solid black;
+    color: black;
+    width: 25px;
+    text-align: center;
+    margin: 0 2em;
+    padding: .5em 2em;
+ }
+
+
+
+
+ .signedIn label{
+    background-color: #FFFEF2;
+    text-decoration: none;
+    font-size: medium;
+    border: 3px solid black;
+    color: black;
+    width: 25px;
+    text-align: center;
+    margin: 0 2em;
+    padding: .5em 2em;
+ }
+
+
+
+ .griditem1{
+    background-color: #060758;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 0px;
+    position:absolute;
+
+ }
+
+
+ /* ------------------------------------------------------ */
+
+ .grid-container {
+    display: grid;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    position:absolute;
+    top: 120px;
+    bottom: 60px;
+    left: 30px;
+    right: 30px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 29;
+  }
+  
+  .item2 {
+    grid-column: 5 / span 4;
+    grid-row: 1 / span 29;
+  }
+  
+  .item3 {
+    grid-column: 1 / span 4;
+    grid-row: 31 / span 30;
+  }
+  
+  .item4 {
+    grid-column: 5 / span 4;
+    grid-row: 31 / span 30;
+  }
